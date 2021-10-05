@@ -5,13 +5,13 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.github.jmgarridopaz.lib</groupId>
-	<artifactId>java-lang-utils</artifactId>
+    <groupId>io.github.jmgarridopaz.lib.javalangutils</groupId>
+	<artifactId>lib-javalangutils</artifactId>
     <version>1.0.0</version>
 
 	<packaging>jar</packaging>
 
-	<name>My Java Language Utilities Library</name>
+	<name>Java Language Utilities Library</name>
 
 	<properties>
         <!-- Char encoding -->
