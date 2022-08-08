@@ -7,7 +7,7 @@
 
     <groupId>io.github.jmgarridopaz.lib.javalangutils</groupId>
 	<artifactId>lib-javalangutils</artifactId>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
 
 	<packaging>jar</packaging>
 
@@ -15,11 +15,11 @@
 
 	<properties>
         <!-- Char encoding -->
-        <project.enconding>UTF-8</project.enconding>
-        <project.build.sourceEncoding>${project.enconding}</project.build.sourceEncoding>
-        <project.reporting.outputEncoding>${project.enconding}</project.reporting.outputEncoding>
+        <project.encoding>UTF-8</project.encoding>
+        <project.build.sourceEncoding>${project.encoding}</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>${project.encoding}</project.reporting.outputEncoding>
         <!-- Java -->
-        <java.version>9</java.version>
+        <java.version>11</java.version>
         <!-- Plugins -->
         <mavenCompilerPlugin.version>3.8.1</mavenCompilerPlugin.version>
         <!-- Skip maven test compilation and execution -->

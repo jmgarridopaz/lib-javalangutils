@@ -15,7 +15,7 @@ public final class FileUtils {
 	private FileUtils() { }
 
 
-	private static Properties propertiesFromFile ( Path propertiesFile ) {
+	public static Properties propertiesFromFile ( Path propertiesFile ) {
 		InputStream inputStream = null;
 		try {
 			inputStream = Files.newInputStream ( propertiesFile.toRealPath() );
